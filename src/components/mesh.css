@@ -1,0 +1,11 @@
+#gradient-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  --gradient-color-1: #4cd4b0;
+  --gradient-color-2: #fffce6;
+  --gradient-color-3: #f24d16;
+  --gradient-color-4: #edd834;
+}
