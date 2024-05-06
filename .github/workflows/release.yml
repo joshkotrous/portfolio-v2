@@ -34,11 +34,11 @@ jobs:
       - name: Deploy app build to S3 bucket
         run: aws s3 sync ./dist/ s3://joshkotrous.io --delete
 
-      - name: Create Github Release
-        uses: ncipollo/release-action@v1
-        with:
-          tag: ${{fromJson(steps.getVersionNumber.outputs.packageJson).version}}
-          generateReleaseNotes: true
+      #   - name: Create Github Release
+      #     uses: ncipollo/release-action@v1
+      #     with:
+      #       tag: ${{fromJson(steps.getVersionNumber.outputs.packageJson).version}}
+      #       generateReleaseNotes: true
 
       - name: Invalidate CloudFront
         uses: chetan/invalidate-cloudfront-action@v2
