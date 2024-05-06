@@ -25,7 +25,7 @@ const HeroBanner = () => {
         </a>
       </h4>
       <h4 className="inter-light">New York, NY</h4>
-      <div className="absolute w-full left-0 mt-40 text-center">
+      <div className="absolute w-full text-center bottom-20">
         <div className="flex justify-center gap-4">
           <a href={emailUrl} rel="noopener noreferrer">
             <MdOutlineEmail className="size-[40px]" />

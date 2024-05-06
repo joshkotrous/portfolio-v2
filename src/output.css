@@ -604,6 +604,22 @@ video {
   left: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.bottom-40 {
+  bottom: 10rem;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -714,6 +730,10 @@ video {
 
 .h-\[90vh\] {
   height: 90vh;
+}
+
+.h-1\/2 {
+  height: 50%;
 }
 
 .max-h-\[1024px\] {
