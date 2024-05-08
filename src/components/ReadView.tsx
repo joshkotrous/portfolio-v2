@@ -34,7 +34,7 @@ const ReadView: React.FC<ReadViewProps> = ({ filepath, date }) => {
   return (
     <div className="bg-white/40 text-white mt-5 p-4">
       <Link to={"/"} className="inline-block">
-        <IoIosClose className="text-6xl m-[-16px] mb-[2px] hover:scale-80 transition-all" />
+        <IoIosClose className="text-6xl m-[-16px] hover:scale-80 transition-all" />
       </Link>
       <ReactMarkdown
         components={{
