@@ -7,7 +7,7 @@ const HeroBanner = () => {
   const emailUrl = "mailto:joshkotrous@gmail.com";
   const companyUrl = "https://www.americanexpress.com/";
   return (
-    <div className="relative h-[100vh] content-center justify-center text-center bg-transparent text-white transition-opacity fade-in">
+    <div className="relative h-[100vh] content-center justify-center text-center bg-transparent text-white transition-opacity fade-in pb-20">
       <h1 className="inter-bold text-8xl">Hello World!</h1>
       <h3 className=" inter-semibold text-xl max-w-[600px] m-auto">
         Full stack engineer specialized in engineering leadership and building
@@ -25,7 +25,7 @@ const HeroBanner = () => {
         </a>
       </h4>
       <h4 className="inter-light">New York, NY</h4>
-      <div className="absolute w-full text-center bottom-20">
+      <div className="absolute w-full text-center bottom-40">
         <div className="flex w-full h-[100px] justify-center items-center m-auto gap-4">
           <a href={emailUrl} rel="noopener noreferrer">
             <MdOutlineEmail className="transition-all text-5xl hover:scale-125" />
