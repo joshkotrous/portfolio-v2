@@ -13,7 +13,7 @@ const Post: React.FC<PostProps> = ({ title, summary, date }) => {
     <Card
       isPressable
       isBlurred
-      className="w-full my-4 bg-white/40 text-white hover:scale-95"
+      className="w-full my-4 bg-white/40 text-white hover:scale-95 text-left"
       onClick={() => {
         navigate(`/posts/${title}`);
       }}
@@ -21,7 +21,7 @@ const Post: React.FC<PostProps> = ({ title, summary, date }) => {
       <CardHeader className="pb-1">
         <div className="flex w-full justify-between items-center">
           <h2 className="inter-bold text-2xl">{title}</h2>
-          <p className="inter-light">{date}</p>
+          <p className="inter-light text-right">{date}</p>
         </div>
       </CardHeader>
       <CardBody className="pt-0">{summary}</CardBody>
