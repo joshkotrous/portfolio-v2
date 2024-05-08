@@ -2,7 +2,7 @@ import { CSSProperties } from "react";
 
 const Noise = () => {
   const noiseStyle: CSSProperties = {
-    position: "absolute",
+    position: "fixed",
     height: "100vh",
     width: "100vw",
     left: 0,

@@ -8,7 +8,7 @@ import { Gradient } from "../helpers/Gradient.js";
 // --gradient-color-4: #7d7d7d;
 const Mesh = () => {
   const gradientStyle: CSSProperties = {
-    position: "absolute",
+    position: "fixed",
     top: 0,
     left: 0,
     height: "100vh",
