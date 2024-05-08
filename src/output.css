@@ -639,6 +639,14 @@ video {
   bottom: 6rem;
 }
 
+.bottom-\[7rem\] {
+  bottom: 7rem;
+}
+
+.bottom-\[8rem\] {
+  bottom: 8rem;
+}
+
 .z-10 {
   z-index: 10;
 }
