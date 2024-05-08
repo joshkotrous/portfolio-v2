@@ -44,6 +44,10 @@
   animation: fade-in 1.5s;
 }
 
+.fade-in-50 {
+  animation: fade-in 0.5s;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
