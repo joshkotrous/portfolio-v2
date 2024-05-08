@@ -1,5 +1,4 @@
-import React, { CSSProperties, useEffect, useState } from "react";
-import { IoIosArrowBack } from "react-icons/io";
+import React, { useEffect, useState } from "react";
 import { IoIosClose } from "react-icons/io";
 
 import ReactMarkdown from "react-markdown";

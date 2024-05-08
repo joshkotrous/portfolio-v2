@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardBody } from "@nextui-org/card";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 interface PostProps {
   title?: string;
   summary?: string;
@@ -7,7 +7,7 @@ interface PostProps {
   id?: number;
 }
 
-const Post: React.FC<PostProps> = ({ title, summary, date, id }) => {
+const Post: React.FC<PostProps> = ({ title, summary, date }) => {
   const navigate = useNavigate();
   return (
     <Card
