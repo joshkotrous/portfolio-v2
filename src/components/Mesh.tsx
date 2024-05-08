@@ -2,6 +2,10 @@ import { CSSProperties, useEffect } from "react";
 // @ts-ignore
 import { Gradient } from "../helpers/Gradient.js";
 
+// --gradient-color-1: #000000;
+// --gradient-color-2: #8f8f8f;
+// --gradient-color-3: #000000;
+// --gradient-color-4: #7d7d7d;
 const Mesh = () => {
   const gradientStyle: CSSProperties = {
     position: "absolute",
@@ -9,10 +13,10 @@ const Mesh = () => {
     left: 0,
     height: "100vh",
     width: "100vw",
-    ["--gradient-color-1" as any]: "#4cd4b0",
-    ["--gradient-color-2" as any]: "#fffce6",
-    ["--gradient-color-3" as any]: "#f24d16",
-    ["--gradient-color-4" as any]: "#edd834",
+    ["--gradient-color-1" as any]: "#000000",
+    ["--gradient-color-2" as any]: "#8f8f8f",
+    ["--gradient-color-3" as any]: "#000000",
+    ["--gradient-color-4" as any]: "#7d7d7d",
   };
   const gradient = new Gradient();
 
@@ -21,7 +25,9 @@ const Mesh = () => {
   }, []);
 
   return (
-    <canvas style={gradientStyle} id="gradient-canvas" data-transition-in />
+    <>
+      <canvas style={gradientStyle} id="gradient-canvas" data-transition-in />
+    </>
   );
 };
 

@@ -7,8 +7,8 @@ const HeroBanner = () => {
   const emailUrl = "mailto:joshkotrous@gmail.com";
   const companyUrl = "https://www.americanexpress.com/";
   return (
-    <div className="relative h-[90vh] content-center justify-center text-center bg-transparent z-50 text-white">
-      <h2 className="inter-bold text-8xl">Hello World!</h2>
+    <div className="relative h-[100vh] content-center justify-center text-center bg-transparent text-white transition-opacity fade-in">
+      <h1 className="inter-bold text-8xl">Hello World!</h1>
       <h3 className=" inter-semibold text-xl max-w-[600px] m-auto">
         Full stack engineer specialized in engineering leadership and building
         high performing teams.
@@ -26,15 +26,15 @@ const HeroBanner = () => {
       </h4>
       <h4 className="inter-light">New York, NY</h4>
       <div className="absolute w-full text-center bottom-20">
-        <div className="flex justify-center gap-4">
+        <div className="flex w-full h-[100px] justify-center items-center m-auto gap-4">
           <a href={emailUrl} rel="noopener noreferrer">
-            <MdOutlineEmail className="size-[40px]" />
+            <MdOutlineEmail className="transition-all text-5xl hover:scale-125" />
           </a>
           <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">
-            <FaGithub className="size-[40px]" />
+            <FaGithub className="transition-all text-5xl hover:scale-125" />
           </a>
           <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="size-[40px]" />
+            <FaLinkedin className="transition-all text-5xl hover:scale-125" />
           </a>
         </div>
       </div>
