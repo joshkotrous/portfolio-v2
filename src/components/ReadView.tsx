@@ -49,7 +49,7 @@ const ReadView: React.FC<ReadViewProps> = ({ filepath, date }) => {
           ),
           p: ({ children }) => <p className="inter-regular">{children}</p>,
           table: ({ children }) => (
-            <div className="w-full text-center">
+            <div className="text-center overflow-auto">
               <table className="border-collapse m-auto border-white border-small">
                 {children}
               </table>
