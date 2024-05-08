@@ -50,10 +50,11 @@ function App() {
 
   return (
     <>
-      <Navigation />
-      <div className="relative w-full px-4 pt-10 pb-20 bg-transparent z-50">
-        <div className="w-full flex-col max-w-[1024px] m-auto bg-transparent">
-          <Router>
+      <Router>
+        <Navigation />
+
+        <div className="relative w-full px-4 pt-10 pb-20 bg-transparent z-40">
+          <div className="w-full flex-col max-w-[1024px] m-auto bg-transparent">
             <Routes>
               <Route
                 path="/"
@@ -90,9 +91,10 @@ function App() {
                   />
                 ))}
             </Routes>
-          </Router>
+          </div>
         </div>
-      </div>
+      </Router>
+
       <Noise />
       <Mesh />
     </>
