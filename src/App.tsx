@@ -51,7 +51,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <div className="relative w-full px-4 pt-10 pb-20 overflow-y-auto bg-transparent z-50">
+      <div className="relative w-full px-4 pt-10 pb-20 bg-transparent z-50">
         <div className="w-full flex-col max-w-[1024px] m-auto bg-transparent">
           <Router>
             <Routes>
