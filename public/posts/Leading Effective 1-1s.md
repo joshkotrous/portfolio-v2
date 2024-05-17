@@ -9,6 +9,7 @@ In your career as a software engineer, you’re most likely already familiar wit
 Although 1:1s tend to be more informal, these meetings should be as significant as any other meeting on your calendar. Below are some best practices to prepare for a 1:1 meeting:
 
 - **Be on time and avoid rescheduling this meeting.** Your developer’s time is valuable and they may be counting on this meeting to bring urgent items to your attention.
+
 - **Create an agenda.** Planned discussion points will help you better capitalize on the time you have allotted for the meeting. Also, check with your direct report for any items they want to discuss.
   - You may not always have agenda items to cover, and that’s okay - but the meeting should still occur. Use this time to update on projects, identify any potential roadblocks, or check in with your direct report on how they’re doing professionally and personally.
 - **Gain a better understanding about your direct report’s life outside of work.** Developing good relationships with your team will improve overall morale and show that you care for their personal wellbeing and progress, too.
