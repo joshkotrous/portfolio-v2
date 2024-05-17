@@ -62,6 +62,7 @@ const ReadView: React.FC<ReadViewProps> = ({ filepath, date }) => {
             <td className="border-white border-small p-3">{children}</td>
           ),
           ol: ({ children }) => <ol className="list-decimal">{children}</ol>,
+          ul: ({ children }) => <ul className="list-disc">{children}</ul>,
         }}
         remarkPlugins={[remarkGfm]}
         children={articleContent}
