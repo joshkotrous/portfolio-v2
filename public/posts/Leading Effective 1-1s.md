@@ -16,7 +16,7 @@ Although 1:1s tend to be more informal, these meetings should be as significant 
 
 ## Facilitating the Feedback Loop
 
-The one-on-one is ~~it’s~~ the most effective time to give and receive feedback with your direct report. Throughout the week, pay attention for positive feedback and opportunities for improvement from other members of the team and incorporate this feedback into the meeting. When discussing opportunities for improvement, always be sure to lead with positive intent and seek to understand your direct report’s point of view. This will help you gracefully deliver the feedback and be sure to follow up to ensure it was effective.
+The one-on-one is the most effective time to give and receive feedback with your direct report. Throughout the week, pay attention for positive feedback and opportunities for improvement from other members of the team and incorporate this feedback into the meeting. When discussing opportunities for improvement, always be sure to lead with positive intent and seek to understand your direct report’s point of view. This will help you gracefully deliver the feedback and be sure to follow up to ensure it was effective.
 
 Giving feedback is equally as important as receiving it, too. Check in with your direct report on how you’re doing as a leader and ask if there’s any way you can better support them in their role. Internalize this feedback and hold yourself accountable for applying it in your day-to-day activities. This continuous feedback loop aids in implementing change when the need is first identified and prevents larger issues from developing.
 
