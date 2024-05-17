@@ -2,19 +2,26 @@
 
 ## Introduction
 
-Throughout your career as a software engineer, _hopefully_ you’re already familiar with the one-on-one meeting with your manager. If you haven’t had a one-on-one meeting with your direct leader, perhaps you should ask them why! Now as an Engineering Manager, one of your core responsibilities is to meet one-on-one with each of your direct reports for at least 30 minutes on a weekly basis. These meetings are imperative in supporting your team by ensuring each developer has the tools they need to be successful. This can come in many forms including fielding technical questions, reviewing code, and clearing blockers - but also on a more personal level handling unexpected personal situations or internal conflicts. In this article I will dissect the developer one-on-one meeting and hope to leave you with some takeaways to apply to your own one-on-ones to make them more effective and the best use of your time.
+In your career as a software engineer, you’re most likely already familiar with the one-on-one meeting with your manager. As an Engineering Manager, one of your core responsibilities is to meet individually with each of your direct reports for at least 30 minutes on a weekly basis. These meetings are imperative to support your team by ensuring each developer has the tools that they need to be successful. This can include fielding technical questions, reviewing code, or clearing blockers. This may also include discussions related to personal and professional development. In this article, I will dissect the developer one-on-one meeting and provide best practices to make your one-on-one meetings more productive and efficient.
 
-## Be Prepared
+## Preparation
 
-Although generally more informal in nature, one-on-ones are still just as important as any other meeting on your calendar. Be on time and avoid rescheduling this meeting. Your developer’s time is valuable and they may be counting on this meeting to bring important items to your attention. It’s also important to ensure you’re adequately prepared for the one-on-one ahead of time to make the best use of the time. Spend 15 minutes before the meeting to create an agenda with discussion points you have and check with your direct report for any items they want to discuss so you can plan accordingly with the time you have allotted. It may be the case you don’t have any agenda items and that’s okay - but the meeting should still happen. Use this time to get an update on projects, identify any potential unforeseen issues, and check in with your direct report on how they’re doing professional and personally - it’s not always about work after all. Developing good relationships with your team will improve overall morale and show that you care about them as people too.
+Although 1:1s tend to be more informal, these meetings should be as significant as any other meeting on your calendar. Below are some best practices to prepare for a 1:1 meeting:
 
-## Ask for and give feedback
+- **Be on time and avoid rescheduling this meeting.** Your developer’s time is valuable and they may be counting on this meeting to bring urgent items to your attention.
+- **Create an agenda.** Planned discussion points will help you better capitalize on the time you have allotted for the meeting. Also, check with your direct report for any items they want to discuss.
+  - You may not always have agenda items to cover, and that’s okay - but the meeting should still occur. Use this time to update on projects, identify any potential roadblocks, or check in with your direct report on how they’re doing professionally and personally.
+- **Gain a better understanding about your direct report’s life outside of work.** Developing good relationships with your team will improve overall morale and show that you care for their personal wellbeing and progress, too.
 
-Another important aspect of the one-on-one is it’s the most effective time to give and receive feedback with your direct report. Throughout the week pay attention for positive feedback and areas of improvement from other members of the team and incorporate this feedback into the meeting. When discussing areas of improvement, always be sure to lead with positive intent and seek to understand your direct report’s point of view. This will help you gracefully deliver the feedback and be sure to follow up to ensure it was effective. Giving feedback is just as important as asking for it too. Check in with your direct report on how you’re doing as a leader and ask if there’s any way you can better support them in their role. Internalize this feedback and hold yourself accountable for applying it in your day-to-day activities. This continuous feedback loop aids implementing feedback when it’s first identified preventing large issues from developing.
+## Facilitating the Feedback Loop
 
-## Take Notes
+The one-on-one is ~~it’s~~ the most effective time to give and receive feedback with your direct report. Throughout the week, pay attention for positive feedback and opportunities for improvement from other members of the team and incorporate this feedback into the meeting. When discussing opportunities for improvement, always be sure to lead with positive intent and seek to understand your direct report’s point of view. This will help you gracefully deliver the feedback and be sure to follow up to ensure it was effective.
 
-The one-on-one meeting is only as effective as the output you apply following it but we all have a full plate and it would be impossible for anyone to remember every detail of the meeting. This is why I emphasize the importance of taking effective notes during your one-on-one. Taking notes will make it easier to follow up on past conversations, can be easily compiled as updates to other stakeholders, and can be incorporated into performance reviews. I have a template I personally use, feel free to incorporate it into your own notes:
+Giving feedback is equally as important as receiving it, too. Check in with your direct report on how you’re doing as a leader and ask if there’s any way you can better support them in their role. Internalize this feedback and hold yourself accountable for applying it in your day-to-day activities. This continuous feedback loop aids in implementing change when the need is first identified and prevents larger issues from developing.
+
+## Taking Notes
+
+The one-on-one meeting is only as effective as the output that follows it - but we all have a full plate and it would be impossible for anyone to remember every detail of a meeting. To ensure accountability on both sides, it’s recommended to take notes during every one-on-one. Taking notes will make it easier to follow up on past conversations, update other stakeholders, and incorporate major takeaways into performance reviews. Feel free to incorporate my personal template into your notes:
 
 &nbsp;
 
@@ -47,16 +54,14 @@ The one-on-one meeting is only as effective as the output you apply following it
 
 &nbsp;
 
-Be mindful though that your note taking is not interrupting the flow of the meeting or taking away too much of your attention. If needed it can be helpful to take your notes in scratch on paper then transcribe them to the template when you have time. This method will allow you to keep your full attention on the meeting while also keeping the data from those meetings recorded in an organized fashion.
+## Let the Engineer Lead
 
-## Let the Engineer Talk
+Although you may you several important topics to discuss, ensure that the one-on-one is a two-way discussion, rather than a one-way lecture. As mentioned above, check in with your direct report ahead of time to see what points they may have to discuss and plan accordingly. The purpose of this meeting is to support the engineer in their workload and career - give them the stage to ask for the help they need.
 
-Although you often times may have lots of important topics to discuss, it’s also important to remember not to take up the entire time talking at the other person. As mentioned before check in with your direct report ahead of time to see what points they may have to discuss and plan accordingly. The purpose of this meeting is to support the engineer in their workload and career - give them the stage to ask for the help they need.
+## Following Up
 
-## Follow Up
-
-Finally, the one-on-ones you have each week should be a continuation of the previous meeting. Utilize the notes you’ve taken to circle back to previous discussions. Follow up on blockers and feedback to check that they have been solved or implemented accordingly. This allows you to hold your direct report accountable and prevent action items from falling into the void.
+Finally, the one-on-ones you have each week should be a continuation of the previous meeting. Utilize the notes you’ve taken to circle back to previous discussions. Check in on blockers and feedback to ensure that they have been resolved or implemented accordingly. This allows you to hold your direct report accountable and prevent action items from falling into the void.
 
 ## Conclusion
 
-Effective one-on-one meetings are one of the foundations of building a positive working experience for engineers on your team. By integrating these principles into your one-on-ones, you can increase their efficacy, thereby bolstering support for your team members in their career development. This, in turn, ultimately leads to higher output and productivity.
+Effective one-on-one meetings are one of the foundations of building a positive working experience for engineers on your team. Integrating these principles into the meeting structure will you can increase its efficacy, thereby bolstering support for your team members in their role as a developer and their overall career development. This, in turn, ultimately leads to higher output and productivity.
