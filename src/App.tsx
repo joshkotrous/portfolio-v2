@@ -10,7 +10,7 @@ import Post from "./components/Post";
 import ReadView from "./components/ReadView";
 import { useEffect, useState } from "react";
 // @ts-ignore
-import DocumentMeta from "react-document-meta";
+import { Helmet } from "react-helmet";
 interface Post {
   title: string;
   summary: string;
@@ -19,20 +19,6 @@ interface Post {
 }
 function App() {
   const [posts, setPosts] = useState<Array<Post>>();
-  const meta = {
-    title: "Josh Kotrous",
-    description: "Josh Kotrous's personal website",
-    meta: {
-      charset: "utf-8",
-      property: {
-        "og:title": "Josh Kotrous",
-        "og:description": "Josh Kotrous's personal website",
-        "og:url": `https://joshkotrous.io`,
-        "og:site_name": "Josh Kotrous",
-        "og:locale": "en_US",
-      },
-    },
-  };
   const getPosts = async () => {
     try {
       const response = await fetch("/posts/posts.json", {
@@ -66,7 +52,19 @@ function App() {
   return (
     <>
       <Router>
-        <DocumentMeta {...meta} />
+        <Helmet>
+          <title>Josh Kotrous</title>
+          <meta charSet="utf-8" />
+          <meta name="title" property="og:title" content="Josh Kotrous" />
+          <meta
+            name="description"
+            property="og:description"
+            content="Josh Kotrous's personal website"
+          />
+          <meta property="og:url" content="https://joshkotrous.io" />
+          <meta property="og:site_name" content="Josh Kotrous" />
+          <meta property="og:locale" content="en_US" />
+        </Helmet>
         <Navigation />
 
         <div className="relative w-full px-4 pt-10 pb-20 bg-transparent z-40">

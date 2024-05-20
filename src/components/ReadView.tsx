@@ -5,7 +5,8 @@ import ReactMarkdown from "react-markdown";
 import { Link } from "react-router-dom";
 import remarkGfm from "remark-gfm";
 // @ts-ignore
-import DocumentMeta from "react-document-meta";
+import { Helmet } from "react-helmet";
+
 interface ReadViewProps {
   filepath: string;
   date?: string;
@@ -22,20 +23,7 @@ const ReadView: React.FC<ReadViewProps> = ({
   const [articleContent, setArticleContent] = useState("");
 
   const encodedTitle = encodeURIComponent(title);
-  const meta = {
-    title: "Josh Kotrous | " + title,
-    description: summary,
-    meta: {
-      charset: "utf-8",
-      property: {
-        "og:title": title,
-        "og:description": summary,
-        "og:url": `https://joshkotrous.io/posts/${encodedTitle}`,
-        "og:site_name": "Josh Kotrous",
-        "og:locale": "en_US",
-      },
-    },
-  };
+
   const fetchMarkdownFile = async () => {
     try {
       const response = await fetch(filepath, {
@@ -56,7 +44,20 @@ const ReadView: React.FC<ReadViewProps> = ({
 
   return (
     <div>
-      <DocumentMeta {...meta} />
+      <Helmet>
+        <title>Josh Kotrous | {title}</title>
+        <meta charSet="utf-8" />
+        <meta name="title" property="og:title" content={title} />
+        <meta name="description" property="og:description" content={summary} />
+        <meta property="og:type" content="Article" />
+        <meta
+          property="og:url"
+          content={`https://joshkotrous.io/posts/${encodedTitle}`}
+        />
+        <meta property="og:site_name" content="Josh Kotrous" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="author" content="Josh Kotrous" />
+      </Helmet>
       <div className="bg-white/40 text-white mt-5 p-4 transition-opacity fade-in-50">
         <Link to={"/"} className="inline-block">
           <IoIosClose className="text-6xl m-[-16px] hover:scale-80 transition-all" />
