@@ -9,6 +9,8 @@ import Section from "./components/Section";
 import Post from "./components/Post";
 import ReadView from "./components/ReadView";
 import { useEffect, useState } from "react";
+// @ts-ignore
+import DocumentMeta from "react-document-meta";
 interface Post {
   title: string;
   summary: string;
@@ -17,7 +19,20 @@ interface Post {
 }
 function App() {
   const [posts, setPosts] = useState<Array<Post>>();
-
+  const meta = {
+    title: "Josh Kotrous",
+    description: "Josh Kotrous's personal website",
+    meta: {
+      charset: "utf-8",
+      property: {
+        "og:title": "Josh Kotrous",
+        "og:description": "Josh Kotrous's personal website",
+        "og:url": `https://joshkotrous.io`,
+        "og:site_name": "Josh Kotrous",
+        "og:locale": "en_US",
+      },
+    },
+  };
   const getPosts = async () => {
     try {
       const response = await fetch("/posts/posts.json", {
@@ -51,6 +66,7 @@ function App() {
   return (
     <>
       <Router>
+        <DocumentMeta {...meta} />
         <Navigation />
 
         <div className="relative w-full px-4 pt-10 pb-20 bg-transparent z-40">
@@ -86,6 +102,8 @@ function App() {
                       <ReadView
                         filepath={post.filepath}
                         date={formatDate(post.date)}
+                        title={post.title}
+                        summary={post.summary}
                       />
                     }
                   />
