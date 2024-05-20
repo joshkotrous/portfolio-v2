@@ -1,4 +1,4 @@
-# Leading Effective 1:1s
+# Leading Effective 1:1s as an Engineering Manager
 
 ## Introduction
 
