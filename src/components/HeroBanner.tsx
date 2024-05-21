@@ -1,5 +1,6 @@
 import { MdOutlineEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 const HeroBanner = () => {
   const gitHubUrl = "https://github.com/joshkotrous";
@@ -24,7 +25,12 @@ const HeroBanner = () => {
           American Express
         </a>
       </h4>
-      <h4 className="inter-light">New York, NY</h4>
+      <div className="flex items-center gap-2 w-full justify-center mt-1">
+        <FaLocationDot className="scale-110" />
+
+        <h4 className="inter-light">New York, NY</h4>
+      </div>
+
       <div className="absolute w-full text-center bottom-32">
         <div className="flex w-full h-[100px] justify-center items-center m-auto gap-4">
           <a href={emailUrl} rel="noopener noreferrer">
