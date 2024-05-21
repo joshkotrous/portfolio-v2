@@ -84,6 +84,7 @@ function App() {
                               summary={post.summary}
                               date={formatDate(post.date)}
                               id={index}
+                              url={post.title.replace(/ /g, "-")}
                             />
                           </div>
                         ))}
@@ -92,20 +93,22 @@ function App() {
                 }
               />
               {posts &&
-                posts.map((post, index) => (
-                  <Route
-                    key={index}
-                    path={`/posts/${post.title}`}
-                    element={
-                      <ReadView
-                        filepath={post.filepath}
-                        date={formatDate(post.date)}
-                        title={post.title}
-                        summary={post.summary}
-                      />
-                    }
-                  />
-                ))}
+                posts.map((post, index) => {
+                  return (
+                    <Route
+                      key={index}
+                      path={`/posts/${post.title.replace(/ /g, "-")}`}
+                      element={
+                        <ReadView
+                          filepath={post.filepath}
+                          date={formatDate(post.date)}
+                          title={post.title}
+                          summary={post.summary}
+                        />
+                      }
+                    />
+                  );
+                })}
             </Routes>
           </div>
         </div>

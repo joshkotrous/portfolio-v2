@@ -5,9 +5,10 @@ interface PostProps {
   summary?: string;
   date?: string;
   id?: number;
+  url?: string;
 }
 
-const Post: React.FC<PostProps> = ({ title, summary, date }) => {
+const Post: React.FC<PostProps> = ({ title, summary, date, url }) => {
   const navigate = useNavigate();
   return (
     <Card
@@ -15,7 +16,7 @@ const Post: React.FC<PostProps> = ({ title, summary, date }) => {
       isBlurred
       className="w-full my-4 bg-white/40 text-white hover:scale-95 text-left"
       onClick={() => {
-        navigate(`/posts/${title}`);
+        navigate(`/posts/${url}`);
       }}
     >
       <CardHeader className="pb-1">
