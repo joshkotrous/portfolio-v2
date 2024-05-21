@@ -18,6 +18,8 @@ Although 1:1s tend to be more informal, these meetings should be as significant 
 
 The one-on-one is the most effective time to give and receive feedback with your direct report. Throughout the week, pay attention for positive feedback and opportunities for improvement from other members of the team and incorporate this feedback into the meeting. When discussing opportunities for improvement, always be sure to lead with positive intent and seek to understand your direct report’s point of view. This will help you gracefully deliver the feedback and be sure to follow up to ensure it was effective.
 
+&nbsp;
+
 Giving feedback is equally as important as receiving it, too. Check in with your direct report on how you’re doing as a leader and ask if there’s any way you can better support them in their role. Internalize this feedback and hold yourself accountable for applying it in your day-to-day activities. This continuous feedback loop aids in implementing change when the need is first identified and prevents larger issues from developing.
 
 ## Taking Notes
@@ -57,7 +59,7 @@ The one-on-one meeting is only as effective as the output that follows it - but 
 
 ## Let the Engineer Lead
 
-Although you may you several important topics to discuss, ensure that the one-on-one is a two-way discussion, rather than a one-way lecture. As mentioned above, check in with your direct report ahead of time to see what points they may have to discuss and plan accordingly. The purpose of this meeting is to support the engineer in their workload and career - give them the stage to ask for the help they need.
+Although you may have several important topics to discuss, ensure that the one-on-one is a two-way discussion, rather than a one-way lecture. As mentioned above, check in with your direct report ahead of time to see what points they may have to discuss and plan accordingly. The purpose of this meeting is to support the engineer in their workload and career - give them the stage to ask for the help they need.
 
 ## Following Up
 
@@ -65,4 +67,4 @@ Finally, the one-on-ones you have each week should be a continuation of the prev
 
 ## Conclusion
 
-Effective one-on-one meetings are one of the foundations of building a positive working experience for engineers on your team. Integrating these principles into the meeting structure will you can increase its efficacy, thereby bolstering support for your team members in their role as a developer and their overall career development. This, in turn, ultimately leads to higher output and productivity.
+Effective one-on-one meetings are one of the foundations of building a positive working experience for engineers on your team. Integrating these principles into the meeting structure you can increase its efficacy, thereby bolstering support for your team members in their role as a developer and their overall career development. This, in turn, ultimately leads to higher output and productivity.
