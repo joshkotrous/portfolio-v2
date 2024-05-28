@@ -7,4 +7,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["js-big-decimal"],
   },
+  build: {
+    outDir: "./build",
+  },
+  base: `/portfolio-v2/`,
 });
