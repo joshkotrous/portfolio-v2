@@ -59,7 +59,7 @@ const ReadView: React.FC<ReadViewProps> = ({
         <meta name="author" content="Josh Kotrous" />
       </Helmet>
       <div className="bg-white/40 text-white mt-5 p-4 transition-opacity fade-in-50">
-        <Link to={"/"} className="inline-block">
+        <Link to={"/portfolio-v2/"} className="inline-block">
           <IoIosClose className="text-6xl m-[-16px] hover:scale-80 transition-all" />
         </Link>
         <ReactMarkdown
