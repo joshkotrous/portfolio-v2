@@ -52,7 +52,7 @@ const ReadView: React.FC<ReadViewProps> = ({
         <meta property="og:type" content="Article" />
         <meta
           property="og:url"
-          content={`https://joshkotrous.io/posts/${encodedTitle}`}
+          content={`https://joshkotrous.io/portfolio-v2/posts/${encodedTitle}`}
         />
         <meta property="og:site_name" content="Josh Kotrous" />
         <meta property="og:locale" content="en_US" />

@@ -16,7 +16,7 @@ const Post: React.FC<PostProps> = ({ title, summary, date, url }) => {
       isBlurred
       className="w-full my-4 bg-white/40 text-white hover:scale-95 text-left"
       onClick={() => {
-        navigate(`/posts/${url}`);
+        navigate(`/portfolio-v2/posts/${url}`);
       }}
     >
       <CardHeader className="pb-1">

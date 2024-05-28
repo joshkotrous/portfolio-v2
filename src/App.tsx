@@ -21,7 +21,7 @@ function App() {
   const [posts, setPosts] = useState<Array<Post>>();
   const getPosts = async () => {
     try {
-      const response = await fetch("/posts/posts.json", {
+      const response = await fetch("/portfolio-v2/posts/posts.json", {
         headers: {
           Accept: "application/json",
         },
