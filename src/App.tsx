@@ -71,7 +71,7 @@ function App() {
           <div className="w-full flex-col max-w-[1024px] m-auto bg-transparent">
             <Routes>
               <Route
-                path="/"
+                path="/portfolio-v2/"
                 element={
                   <>
                     <HeroBanner />
@@ -97,7 +97,10 @@ function App() {
                   return (
                     <Route
                       key={index}
-                      path={`/posts/${post.title.replace(/ /g, "-")}`}
+                      path={`/portfolio-v2/posts/${post.title.replace(
+                        / /g,
+                        "-"
+                      )}`}
                       element={
                         <ReadView
                           filepath={post.filepath}
